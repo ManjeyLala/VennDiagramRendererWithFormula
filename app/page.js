@@ -24,12 +24,13 @@ export default function Home() {
             <div className='content'>
               <canvas id="venn" width="500" height="500">
               </canvas>
-              {/* <script>
-              // mouse positioning not currently working in react/nextjs environment
+              <div dangerouslySetInnerHTML={{__html: `
+              <script>
                 document.getElementById("venn").addEventListener("mousedown", function (e) {
                   getMousePosition(document.getElementById("venn"), e)
                 });
-              </script> */}
+              </script>
+              `}} />
             </div>
           </div>
           <div className="container">
