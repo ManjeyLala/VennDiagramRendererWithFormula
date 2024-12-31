@@ -52,7 +52,7 @@ export default function Home() {
             <li>Enter the formula using</li>
             <li>Union: u</li>
             <li>Intersection: n</li>
-            <li>{`Negation: '`}</li>
+            <li>{`Complement: '`}</li>
             <li>Difference: -</li>
             <li>{`For example: AnC' or (AuB)nC `}</li>
           </ol>
